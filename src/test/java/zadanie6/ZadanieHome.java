@@ -16,8 +16,8 @@ public class ZadanieHome {
     }
 
     public void loginAss(String loginm, String pass){
-        zadanieHomePage.login.sendKeys("user");
-        zadanieHomePage.password.sendKeys("pass");
+        zadanieHomePage.login.sendKeys(loginm);
+        zadanieHomePage.password.sendKeys(pass);
         zadanieHomePage.button.click();
     }
 }
